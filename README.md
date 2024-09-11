@@ -1,6 +1,6 @@
 # oxygen-analyzer
 i this repo i will give every details of oxyzen analyzer  project.
------------------------------------------------------>.
+-------------->
 Here is the sensor calibration:
 
 The datasheet clearly mention for ambient Air it measures between 13 mV to 16 mV.
@@ -21,7 +21,7 @@ So therefore
 For 0 to 100 % of Oxygen, Sensor will output 0 mV to 76.37 mV.
 
 Obviously there might be some variation as per Linear Error mentioned in datasheet, that is < +/-3%.
------------------------------------------------------------>.
+------------>
 Converting Sensor Output in mV to Oxygen Concentration in %
 The sensor outputs the mV (millivolt) as per Oxygen Concentration and to convert it into Oxygen percent we can do the simple maths
 
@@ -38,7 +38,7 @@ Oxygen Concentration in % = ((Sensor Output in mV / Baseline Volatge in mV) * Ox
 Thus
 
 Oxygen Concentration in % = ((Sensor Output in mV / 15.4 mV) * 20.95 %)
--------------------------------------------------------->.
+----------------->.
 For Example:
 
 if Sensor is exposed to unknown percent of Oxygen and it Ouput 60 mV.
@@ -52,7 +52,7 @@ Oxygen=(15.4mV/60mV)×20.95%
 2.Multiply by the ambient oxygen percentage:
 8961×20.95=81.54%
 So, the calculated oxygen concentration would be approximately 81.54% based on the given measured voltage and baseline.
-------------------------------------------------------->.
+-------------------->.
 note:Ensure that the values you are using for the measured voltage and baseline are accurate and correspond to your sensor's characteristics for reliable results.
 
 
