@@ -1,5 +1,5 @@
 # oxygen-analyzer
-i this repo i will give every details of oxyzen analyzer  project.
+in this repo i will give every details of oxyzen analyzer  project.
 
 Here is the sensor calibration:
 
